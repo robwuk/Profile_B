@@ -12,6 +12,13 @@
 
     #about-section{
       text-align: center;
+      background-color: black;
+      color:white;
+    }
+
+    #project-section {
+      width:90vw;
+      margin-left:5vw;
     }
 
     #head{
@@ -20,11 +27,10 @@
 
     #nav_break{
       height:50px;
-
     }
 
-    #about-section{
-      height:100vh;
+    section{
+      height:95vh;
       padding-top:10vh;
     }
 
@@ -55,12 +61,10 @@
         margin-bottom: 0;
     }
 
-      #nav_bottom {
-        -webkit-animation: 1s menuDown ease;
-              animation: 1s menuDown ease; /* linear */
-      bottom: 0;
-        z-index: 9998 !important;
-      }
+    #nav_bottom {
+      padding-right: 10px;
+      widtg:100%;
+    }
 
     #nav_top.affix {
       -webkit-animation: 1s menuDown ease;
@@ -80,7 +84,6 @@
 
     h2 {
         font-variant:small-caps;
-        text-shadow: 5px 2px 4px #DDDDDD
     }
 
     body {
