@@ -25,39 +25,52 @@
 
     #about-section{
       height:100vh;
-      padding-top:15vh;
+      padding-top:10vh;
     }
 
-    .affix {
-        top: 9vh;
+    @-webkit-keyframes menuDown {
+      0% {top: -50px}
+      100% {top: 0px}
+    }
+    @keyframes menuDown {
+      0% {top: -50px}
+      100% {top: 0px}
+    }
+
+    @-webkit-keyframes menuUp {
+      0% {bottom: -50px}
+      100% {bottom: 0px}
+    }
+    @keyframes menuUp {
+      0% {bottom: -50px}
+      100% {bottom: 0px}
+    }
+
+    #nav_bottom.affix {
+      -webkit-animation: 1s menuUp ease;
+              animation: 1s menuUp ease; /* linear */
+      bottom: 0;
+        width: 100%;
+        z-index: 9998 !important;
+        margin-bottom: 0;
+    }
+
+      #nav_bottom {
+        -webkit-animation: 1s menuDown ease;
+              animation: 1s menuDown ease; /* linear */
+      bottom: 0;
+        z-index: 9998 !important;
+      }
+
+    #nav_top.affix {
+      -webkit-animation: 1s menuDown ease;
+              animation: 1s menuDown ease; /* linear */
+      top: 0;
         width: 100%;
         z-index: 9999 !important;
     }
 
-    .affix + .container-fluid {
-        padding-top: 70px;
-    }
-
-    .body_img_right{
-        float:right;
-        margin-left:20px;
-        -webkit-border-radius:10px;
-        border-radius:10px;
-        box-shadow: 5px 2px 4px #DDDDDD;
-        border:1px solid black;
-    }
-
-    .body_img_left{
-        float:left;
-        margin-right:20px;
-        -webkit-border-radius:10px;
-        border-radius:10px;
-        box-shadow: 5px 2px 4px #DDDDDD;
-        border:1px solid black;
-    }
-
-
-    h1 {
+  h1 {
         font-size:250%;
         font-variant:small-caps;
         text-align:center;
@@ -69,7 +82,6 @@
         font-variant:small-caps;
         text-shadow: 5px 2px 4px #DDDDDD
     }
-
 
     body {
         font-family: Tahoma;
@@ -98,22 +110,4 @@
     animation-duration: 5s;
     -webkit-animation-name: colorchange;
     -webkit-animation-duration: 5s ease;*/
-    }
-
-
-@keyframes colorchange {
-    0% {background-color: white; }
-    100% {background-color: black; }
-}
-
-/*@-webkit-keyframes colorchange {
-    from {width:0px; }
-    to {width:200px; }
-    0% {background-color: white; }
-    100% {background-color: black; }
-}*/
-
-    nav{
-        text-align:center;
-        perspective:100px;
     }
