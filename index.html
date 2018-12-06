@@ -23,9 +23,16 @@
       <div class="row" id="header">
         <div class="col-xs-12">
           <h1 class="text-center text-primary" id="head">Robert Worth</h1>
-          <h2><p class="text-center head">Personal Development</p></h2>
-          <h3><p class="text-center head">Profile</p></h3>
+          <h2><p class="text-center head">Personal Development Profile</p></h2>
+          <p class="text-center head" id="quote">“For the best return on your money, pour your purse into your head.”  <sub>Benjamin Franklin</sub></p>
         </div>
+      </div>
+      <div class="row" id="tech">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-1"><span class="label label-primary">HTML</span></div>
+        <div class="col-xs-1"><span class="label label-success">CSS3</span></div>
+        <div class="col-xs-1"><span class="label label-info">JQuery</span></div>
+        <div class="col-xs-1"><span class="label label-warning">Bootstrap</span></div>
       </div>
     </div>
 
@@ -35,7 +42,11 @@
             <ul class="nav navbar-nav">
               <li><a href="#about-section">About</a></li>
               <li><a href="#project-section">Personal Work</a></li>
-              <li><a href="#">freeCodeCamp Projects</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">freeCodeCamp Projects  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#RWD-section">Responsive Web Design</a></li>
+                </ul>
+              </li>
               <li><a href="#">Certificates</a></li>
             </ul>
       </nav>
@@ -76,23 +87,66 @@
             </p>
           </div>
 
-<div class="row">
-          <div class="col-xs-3" id="project-links">
-            <div class="panel panel-default">
-            <div class="panel-body"><a href="https://robwuk.github.io/MP_Church/" target="_blank"><img class="img-responsive" alt="Monkton Park Church" src="MPC_Old_Photo.jpg"></a></div>
-            <div class="panel-footer">Monkton Park Church Website</div>
+          <div class="row">
+            <div class="col-xs-3" id="project-links">
+              <div class="panel panel-default">
+              <div class="panel-body"><a href="https://robwuk.github.io/MPC_Boot/" target="_blank"><img class="img-responsive" alt="Monkton Park Church" src="MPC_Old_Photo.jpg"></a></div>
+              <div class="panel-footer" align="center">Monkton Park Church Website<br />
+              <span class="label label-primary">HTML</span><span class="label label-success">CSS3</span><span class="label label-info">JQuery</span><span class="label label-warning">Bootstrap</span></div>
+              </div>
+              <div class="panel panel-default">
+              <div class="panel-body"><a href="https://robwuk.github.io/Sandbox/" target="_blank"><img class="img-responsive" alt="Sandbox" src="webdevelopment.jpg"></a></div>
+              <div class="panel-footer" align="center">Sandbox - Learning & Experimenting<br />
+              <span class="label label-primary">HTML</span><span class="label label-success">CSS3</span></div>
+              </div>
             </div>
-            <div class="panel panel-default">
-            <div class="panel-body"><a href="https://robwuk.github.io/Sandbox/" target="_blank"><img class="img-responsive" alt="Sandbox" src="webdevelopment.jpg"></a></div>
-            <div class="panel-footer">Sandbox - Learning & Experimenting</div>
           </div>
         </div>
-  </div>
+      </section>
 
-</div>
-
+    <section id="RWD-section" class="container-fluid">
+      <h2 align="right">freeCodeCamp Responsive Web Design Projects</h2>
+      <div class="row">
+        <div class="col-xs-6" id="">
+          <div class="row">
+            <div class="col-xs-6" id="project-links">
+              <div class="panel panel-default">
+              <div class="panel-body"><a href="https://robwuk.github.io/TributePage/" target="_blank"><img class="img-responsive" alt="Tribute Page" src="Tribute.PNG"></a></div>
+              <div class="panel-footer" align="center">Tribute Page<br />
+              <span class="label label-primary">HTML</span><span class="label label-success">CSS3</span></div>
+              </div>
+              <div class="panel panel-default">
+              <div class="panel-body"><a href="https://robwuk.github.io/SurveyForm/" target="_blank"><img class="img-responsive" alt="Survey Page" src="Survey.PNG"></a></div>
+              <div class="panel-footer" align="center">Survey Form<br />
+              <span class="label label-primary">HTML</span><span class="label label-success">CSS3</span></div>
+              </div>
+            </div>
+            <div class="col-xs-6" id="project-links">
+              <div class="panel panel-default">
+              <div class="panel-body"><a href="https://robwuk.github.io/TechDoc/" target="_blank"><img class="img-responsive" alt="Technical Dcoumentation" src="TechDoc.PNG"></a></div>
+              <div class="panel-footer" align="center">Technical Dcoumentation<br />
+              <span class="label label-primary">HTML</span><span class="label label-success">CSS3</span></div>
+              </div>
+              <div class="panel panel-default">
+              <div class="panel-body"><a href="https://robwuk.github.io/Profile/" target="_blank"><img class="img-responsive" alt="Personal Profile" src="WIP.jpg"></a></div>
+              <div class="panel-footer" align="center">Personal Profile<br />
+              <span class="label label-primary">HTML</span><span class="label label-success">CSS3</span></div>
+              </div>
+              <div class="panel panel-default">
+              <div class="panel-body"><a href="https://robwuk.github.io/ProductPage/" target="_blank"><img class="img-responsive" alt="Product Page" src="Product.PNG"></a></div>
+              <div class="panel-footer" align="center">Product Page<br />
+              <span class="label label-primary">HTML</span><span class="label label-success">CSS3</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6" id="RWD-text">
+          <p id="fcc" align="right">As part of the <a href="https://learn.freecodecamp.org" target="_blank">freeCodeCamp</a> <i>Responsive Web Design</i> certificate there are 5 projects that need to be completed, tested and submitted, These projects cover all of the elements the course goes over and are used to confirm learning. The images below are links to the web pages built for these projects (I will add new links as/when the projects are complete).</p>
         </div>
       </div>
+    </section>
+
+    <section>
     </section>
 
     <script>

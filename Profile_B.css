@@ -7,7 +7,7 @@
       margin-top: 80px;
       height: 90vh;
       text-align: center;
-      padding-top:30vh
+      padding-top:25vh
     }
 
     #about-section{
@@ -17,6 +17,11 @@
     }
 
     #project-section {
+      width:90vw;
+      margin-left:5vw;
+    }
+
+    #RWD-section {
       width:90vw;
       margin-left:5vw;
     }
@@ -31,7 +36,8 @@
 
     section{
       height:95vh;
-      padding-top:10vh;
+      padding-top:8vh;
+      padding-bottom:8vh;
     }
 
     @-webkit-keyframes menuDown {
@@ -74,13 +80,20 @@
         z-index: 9999 !important;
     }
 
-  h1 {
-        font-size:250%;
-        font-variant:small-caps;
-        text-align:center;
-        text-shadow: 5px 2px 4px #DDDDDD;
-        text-transform:capitalize;
-    }
+    #quote{
+      font-size:80%;
+      font-style:italic;
+      color:#bbbbbb;
+      text-align:center;
+      }
+
+    h1 {
+          font-size:250%;
+          font-variant:small-caps;
+          text-align:center;
+          text-shadow: 5px 2px 4px #DDDDDD;
+          text-transform:capitalize;
+      }
 
     h2 {
         font-variant:small-caps;
@@ -97,20 +110,4 @@
 
     a{
       color:orange;
-    }
-
-    a:hover{
-        /*font-size:110%;*/
-        /*text-shadow: 5px 2px 4px #DDDDDD;*/
-        color:white;
-        /*background: black;
-        transition: width 3s;
-        -webkit-transition: background-color 2s ease-in;
-        background-color: black;
-        height:100px;
-    width:0px;
-    animation-name: colorchange;
-    animation-duration: 5s;
-    -webkit-animation-name: colorchange;
-    -webkit-animation-duration: 5s ease;*/
     }
