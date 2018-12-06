@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy');
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Londrina Sketch', cursive;
+}
+
+
     ﻿#header{
         padding-bottom: 1vh;
         box-shadow: 5px 2px 4px #333333;
@@ -7,7 +16,7 @@
       margin-top: 80px;
       height: 90vh;
       text-align: center;
-      padding-top:25vh
+      padding-top:10vh;
     }
 
     #about-section{
@@ -27,8 +36,7 @@
     }
 
     #head{
-        text-decoration:underline overline;
-    }
+        }
 
     #nav_break{
       height:50px;
@@ -38,6 +46,7 @@
       height:95vh;
       padding-top:8vh;
       padding-bottom:8vh;
+      font-family: "Roboto";
     }
 
     @-webkit-keyframes menuDown {
@@ -85,22 +94,36 @@
       font-style:italic;
       color:#bbbbbb;
       text-align:center;
+      font-family: "Roboto";
       }
 
-    h1 {
-          font-size:250%;
-          font-variant:small-caps;
+    #h1_large {
+          font-size:12vw;
+          font-weight: bold;
+          font-family: "Londrina Sketch";
           text-align:center;
           text-shadow: 5px 2px 4px #DDDDDD;
           text-transform:capitalize;
+          margin:0;
+          padding-bottom: 0;
       }
+
+      #h1_small {
+            margin:0;
+            font-size:6vw;
+            font-family: "Roboto";
+            text-align:center;
+            padding-bottom: 0;
+            text-shadow: 5px 2px 4px #DDDDDD;
+        }
 
     h2 {
         font-variant:small-caps;
+        font-family: "Roboto";
     }
 
     body {
-        font-family: Tahoma;
+        font-family: "Roboto";
     }
 
     ul {
