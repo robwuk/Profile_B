@@ -23,16 +23,31 @@
       text-align: center;
       background-color: black;
       color:white;
+      height:95vh;
     }
 
     #project-section {
       width:90vw;
       margin-left:5vw;
+      height:95vh;
     }
 
     #RWD-section {
       width:90vw;
       margin-left:5vw;
+      height:180vh;
+    }
+
+    #FEM-section {
+      width:90vw;
+      margin-left:5vw;
+      height:95vh;
+    }
+
+    #Cert-section {
+      width:90vw;
+      margin-left:5vw;
+      height:95vh;
     }
 
     #head{
@@ -43,7 +58,7 @@
     }
 
     section{
-      height:95vh;
+
       padding-top:8vh;
       padding-bottom:8vh;
       font-family: "Roboto";
